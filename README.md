@@ -76,3 +76,5 @@ CHROME_PATH=/usr/bin/google-chrome node scripts/ui-smoke.js http://localhost:300
 - Sparse input can produce ties (many crops score 100 on three inputs); the app warns instead of guessing.
 - Crop ranges are approximate and unvalidated.
 - Rate limit is in memory, per process, applied to `/api` only.
+
+Crop images are AI-generated.

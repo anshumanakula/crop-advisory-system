@@ -159,3 +159,5 @@ tr.overall th, tr.overall td { border-top: 2px solid var(--ink); font-weight: 70
   .card { border: none; padding: 0; }
   .crop-card { break-inside: avoid; }
 }
+
+.crop-img { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; background: #fff; vertical-align: middle; margin-right: 8px; }
