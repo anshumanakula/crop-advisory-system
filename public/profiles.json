@@ -1,0 +1,41 @@
+{
+  "profiles": [
+    {
+      "id": "monsoon-paddy",
+      "name": "Monsoon paddy",
+      "expected": "rice",
+      "input": { "season": "kharif", "soil": "clay", "ph": 6.2, "n": 90, "p": 45, "k": 45, "rainfall": 1500, "temperature": 28, "humidity": 80 }
+    },
+    {
+      "id": "winter-wheat",
+      "name": "Winter wheat",
+      "expected": "wheat",
+      "input": { "season": "rabi", "soil": "loamy", "ph": 6.8, "n": 100, "p": 50, "k": 40, "rainfall": 600, "temperature": 18, "humidity": 60 }
+    },
+    {
+      "id": "dry-sandy",
+      "name": "Dry sandy",
+      "expected": "pearl-millet",
+      "input": { "season": "kharif", "soil": "sandy", "ph": 7.2, "n": 50, "p": 30, "k": 30, "rainfall": 400, "temperature": 31, "humidity": 40 }
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "expected": "potato",
+      "input": { "season": "rabi", "soil": "loamy", "ph": 5.8, "n": 140, "p": 80, "k": 140, "rainfall": 700, "temperature": 18, "humidity": 70 }
+    },
+    {
+      "id": "black-soil-cotton",
+      "name": "Black-soil cotton",
+      "expected": "cotton",
+      "input": { "season": "kharif", "soil": "black", "ph": 7.5, "n": 110, "p": 45, "k": 45, "rainfall": 900, "temperature": 28, "humidity": 60 }
+    },
+    {
+      "id": "sparse-input",
+      "name": "Sparse input (edge case)",
+      "expected": null,
+      "expectLowConfidence": true,
+      "input": { "season": "kharif", "ph": 6.5, "rainfall": 800, "temperature": 27 }
+    }
+  ]
+}
